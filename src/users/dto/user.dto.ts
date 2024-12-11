@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { EstadoDto } from 'src/estados/dto/estado.dto';
+import { EstadoDto } from '../../estados/dto/estado.dto';
 
 export class UserDto {
   @ApiProperty()
