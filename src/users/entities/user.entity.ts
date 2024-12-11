@@ -1,4 +1,4 @@
-import { Estado } from 'src/estados/entities/estado.entity';
+import { Estado } from '../../estados/entities/estado.entity';
 import {
   Column,
   Entity,

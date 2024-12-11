@@ -1,7 +1,7 @@
 import { TipoPassagem } from '../entities/passagem.entity';
 import { ApiProperty } from '@nestjs/swagger';
-import { CompanhiaDto } from 'src/companhias/dto/companhia.dto';
-import { EstadoDto } from 'src/estados/dto/estado.dto';
+import { CompanhiaDto } from '../../companhias/dto/companhia.dto';
+import { EstadoDto } from '../../estados/dto/estado.dto';
 
 export class OrcamentoDto {
   @ApiProperty()

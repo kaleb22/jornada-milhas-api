@@ -1,5 +1,5 @@
-import { Companhia } from 'src/companhias/entities/companhia.entity';
-import { Estado } from 'src/estados/entities/estado.entity';
+import { Companhia } from '../../companhias/entities/companhia.entity';
+import { Estado } from '../../estados/entities/estado.entity';
 import {
   Column,
   Entity,

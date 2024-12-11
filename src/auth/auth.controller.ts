@@ -14,7 +14,7 @@ import {
 import { AuthService } from './auth.service';
 import { LoginDto } from './dto/login.dto';
 import { AuthGuard } from './guards/auth.guard';
-import { UserDto } from 'src/users/dto/user.dto';
+import { UserDto } from '../users/dto/user.dto';
 import { ApiOkResponse } from '@nestjs/swagger';
 import { TokenDto } from './dto/token.dto';
 
